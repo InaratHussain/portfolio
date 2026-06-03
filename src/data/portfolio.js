@@ -40,7 +40,7 @@ export const experience = [
     org: 'IIIT Vadodara — Vadodara, India',
     date: 'May 2025 – Jul 2025',
     bullets: [
-      'Published the DKCAE framework in Springer Nature — a Dynamic Key Constant Aggregate Encryption scheme for secure data sharing, validated across 500+ encryption/decryption operations.',
+      'Published the DKCAE framework in Springer Nature; a Dynamic Key Constant Aggregate Encryption scheme for secure data sharing, validated across 500+ encryption/decryption operations.',
       'Eliminated private key retransmission overhead during access changes using bilinear pairing properties in the PBC library — closing a key gap in existing aggregate encryption schemes.',
       'Designed and benchmarked the full system end-to-end, from construction to formal peer-reviewed publication.',
     ],
