@@ -34,7 +34,6 @@ export default function About() {
           <div className={styles.line}><span className={styles.comment}># what i build</span></div>
           <div className={styles.line}><span className={styles.out}>→ Real-time data platforms</span></div>
           <div className={styles.line}><span className={styles.out}>→ Privacy-preserving AI systems</span></div>
-          <div className={styles.line}><span className={styles.out}>→ Applied cryptography</span></div>
           <div className={styles.line}><span className={styles.out}>→ LLM pipelines &amp; agents</span></div>
           <div className={styles.line}><span className={styles.out}>→ Full-stack MERN apps</span></div>
           <div className={styles.line}>&nbsp;</div>

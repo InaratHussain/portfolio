@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={styles.inner}>
         <div className={styles.prompt}>
           <span className={styles.pulse} />
-          system online — SDE &amp; AI Engineer — IIIT Vadodara &apos;26
+          system online | SDE &amp; AI Engineer
         </div>
 
         <h1 className={styles.name}>
@@ -17,7 +17,7 @@ export default function Hero() {
         <p className={styles.tagline}>
           I build <span className={styles.hlBlue}>full-stack systems</span> that ship and{' '}
           <span className={styles.hlPurple}>AI pipelines</span> that work in production.
-          Research published in Springer Nature. Shipping real products since 2025.
+          Let's connect if you are building something fun!
         </p>
 
         <div className={styles.roles}>
@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         <div className={styles.ctas}>
-          <a href={`mailto:${meta.email}`} className={styles.btnPrimary}>→ hire me</a>
+          <a href={`mailto:${meta.email}`} className={styles.btnPrimary}>Let's connect</a>
           <a href={meta.github} target="_blank" rel="noreferrer" className={styles.btnGhost}>⌥ github</a>
           <a href={meta.paper} target="_blank" rel="noreferrer" className={styles.btnGhost}>⊕ research paper</a>
           <a href={meta.resume} className={styles.btnGhost}>↓ resume</a>

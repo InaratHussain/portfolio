@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { meta } from '../data/portfolio';
 import styles from './Navbar.module.css';
 
-const links = ['about', 'experience', 'projects', 'skills', 'contact'];
+const links = ['about', 'experience', 'projects', 'skills', 'certifications', 'contact'];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

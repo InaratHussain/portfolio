@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <section id="contact" className={styles.section}>
       <div ref={h.ref} className={`${styles.fadeUp} ${h.visible ? styles.visible : ''}`}>
-        <SectionHeader num="05" title="contact.sh" />
+        <SectionHeader num="06" title="contact.sh" />
       </div>
       <div className={styles.grid}>
         <div ref={t.ref} className={`${styles.fadeUp} ${t.visible ? styles.visible : ''}`}>

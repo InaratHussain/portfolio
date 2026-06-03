@@ -5,13 +5,13 @@ export const meta = {
   linkedin: 'linkedin.com/in/inarat-hussain-612194270/',
   leetcode: 'https://leetcode.com/u/Inu_Minu/',
   paper: 'https://link.springer.com/chapter/10.1007/978-3-032-13714-2_12',
-  resume: '/resume.pdf',
+  resume: 'https://drive.google.com/file/d/1RGHRMF9KsCvKtItAnJW4UUruosMflAvP/view?usp=sharing',
   gpa: '8.42',
   college: 'IIIT Vadodara',
   graduation: 'May 2026',
 };
 
-export const roles = ['SDE', 'Full Stack', 'AI Engineer', 'MERN Stack', 'ML / Deep Learning'];
+export const roles = ['SDE', 'Full Stack', 'AI Engineer'];
 
 export const stats = [
   { num: '8.42', label: 'CPI' },
@@ -60,17 +60,17 @@ export const projects = [
     stack: ['MongoDB', 'Express', 'React', 'Node.js', 'Google Maps API'],
     github: 'https://github.com/InaratHussain/purvca-congestion-project',
   },
-  {
-    id: 'dkcae',
-    kind: 'ai',
-    kindLabel: 'RESEARCH / CRYPTO',
-    title: 'DKCAE — Dynamic Key Encryption',
-    desc: 'Novel aggregate encryption scheme with zero private key retransmission overhead during access changes. Validated across 500+ operations using the PBC library.',
-    metrics: ['Published — Springer Nature', '500+ ops tested'],
-    metricType: 'ai',
-    stack: ['C', 'PBC Library', 'Bilinear Pairings', 'Cryptography'],
-    github: 'https://link.springer.com/chapter/10.1007/978-3-032-13714-2_12',
-  },
+  // {
+  //   id: 'dkcae',
+  //   kind: 'ai',
+  //   kindLabel: 'RESEARCH, CRYPTO',
+  //   title: 'DKCAE — Dynamic Key Encryption',
+  //   desc: 'Novel aggregate encryption scheme with zero private key retransmission overhead during access changes. Validated across 500+ operations using the PBC library.',
+  //   metrics: ['Published: Springer Nature Switzerland', '500+ ops tested'],
+  //   metricType: 'ai',
+  //   stack: ['C', 'PBC Library', 'Bilinear Pairings', 'Cryptography'],
+  //   github: 'https://link.springer.com/chapter/10.1007/978-3-032-13714-2_12',
+  // },
   {
     id: 'privacy-ai',
     kind: 'ai',
@@ -85,7 +85,7 @@ export const projects = [
   {
     id: 'autism',
     kind: 'both',
-    kindLabel: 'AI + FULL STACK',
+    kindLabel: 'AI/ML',
     title: 'Toddler Autism Prediction App',
     desc: 'Early autism risk detection via Bayesian ML on 1,000+ behavioral data points. Flask web interface with optimized preprocessing pipeline cutting runtime by 30%.',
     metrics: ['85% accuracy', '30% faster pipeline'],
@@ -132,21 +132,36 @@ export const skillGroups = [
       { name: 'Google Colab', hot: true },
     ],
   },
+  // {
+  //   label: 'COURSEWORK',
+  //   skills: [
+  //     { name: 'DSA + OOPs', hot: true },
+  //     { name: 'AI/ML + Deep Learning', hot: true },
+  //     { name: 'DBMS', hot: true },
+  //     { name: 'Quantum ML', hot: true },
+  //     { name: 'Cryptography', hot: true },
+  //   ],
+  // },
+  
+];
+
+export const certifications = [
   {
-    label: 'COURSEWORK',
-    skills: [
-      { name: 'DSA + OOPs', hot: true },
-      { name: 'AI/ML + Deep Learning', hot: true },
-      { name: 'DBMS', hot: true },
-      { name: 'Quantum ML', hot: true },
-      { name: 'Cryptography', hot: true },
-    ],
+    id: 'nptel-llm',
+    title: 'Introduction to Large Language Models (LLMs)',
+    issuer: 'NPTEL',
+    issuerType: 'nptel',
+    year: '2024',
+    credentialLink: 'https://nptel.ac.in/your-certificate-url',
+    skills: ['LLM Architecture', 'Transformers', 'Prompt Engineering'],
   },
   {
-    label: 'CERTIFICATIONS',
-    skills: [
-      { name: 'LLMs — NPTEL', hot: true },
-      { name: 'Deep Learning — NVIDIA', hot: true },
-    ],
+    id: 'nvidia-dl',
+    title: 'Fundamentals of Deep Learning',
+    issuer: 'NVIDIA',
+    issuerType: 'nvidia',
+    year: '2024',
+    credentialLink: 'https://learn.nvidia.com/your-certificate-url',
+    skills: ['Neural Networks', 'CNNs', 'GPU Computing', 'PyTorch'],
   },
 ];
