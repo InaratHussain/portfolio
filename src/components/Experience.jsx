@@ -19,7 +19,7 @@ function ExpCard({ exp }) {
       </ul>
       {exp.pubLink && (
         <a href={exp.pubLink} target="_blank" rel="noreferrer" className={styles.pubBadge}>
-          ⊕ read paper — Springer Nature 2025
+          Published: Springer Nature Switerland 2025
         </a>
       )}
     </div>

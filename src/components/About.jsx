@@ -18,14 +18,12 @@ export default function About() {
           <div className={styles.line}><span className={styles.key}>&quot;name&quot;</span><span className={styles.cmd}>: </span><span className={styles.str}>&quot;Inarat Hussain&quot;</span><span className={styles.cmd}>,</span></div>
           <div className={styles.line}><span className={styles.key}>&quot;degree&quot;</span><span className={styles.cmd}>: </span><span className={styles.str}>&quot;B.Tech CSE, IIIT Vadodara&quot;</span><span className={styles.cmd}>,</span></div>
           <div className={styles.line}><span className={styles.key}>&quot;graduation&quot;</span><span className={styles.cmd}>: </span><span className={styles.str}>&quot;May 2026&quot;</span><span className={styles.cmd}>,</span></div>
-          <div className={styles.line}><span className={styles.key}>&quot;gpa&quot;</span><span className={styles.cmd}>: </span><span className={styles.val}>8.42</span><span className={styles.cmd}>,</span></div>
+          <div className={styles.line}><span className={styles.key}>&quot;cpi&quot;</span><span className={styles.cmd}>: </span><span className={styles.val}>8.42</span><span className={styles.cmd}>,</span></div>
           <div className={styles.line}><span className={styles.key}>&quot;location&quot;</span><span className={styles.cmd}>: </span><span className={styles.str}>&quot;India&quot;</span><span className={styles.cmd}>,</span></div>
           <div className={styles.line}><span className={styles.key}>&quot;open_to&quot;</span><span className={styles.cmd}>: [</span></div>
           <div className={styles.line}><span className={styles.out}><span className={styles.str}>&quot;SDE&quot;</span><span className={styles.cmd}>,</span></span></div>
-          <div className={styles.line}><span className={styles.out}><span className={styles.str}>&quot;Full Stack Engineer&quot;</span><span className={styles.cmd}>,</span></span></div>
           <div className={styles.line}><span className={styles.out}><span className={styles.str}>&quot;AI/ML Engineer&quot;</span></span></div>
           <div className={styles.line}><span className={styles.cmd}>],</span></div>
-          <div className={styles.line}><span className={styles.key}>&quot;published&quot;</span><span className={styles.cmd}>: </span><span className={styles.str}>&quot;Springer Nature, 2025&quot;</span></div>
         </Terminal>
 
         <Terminal title="interests.sh">
