@@ -108,8 +108,8 @@ export const skillGroups = [
     label: 'FULL STACK',
     skills: [
       { name: 'React.js', hot: true },
-      { name: 'Node.js + Express', hot: true },
-      { name: 'MongoDB + PostgreSQL', hot: true },
+      { name: 'Node.js, Express', hot: true },
+      { name: 'MongoDB, PostgreSQL', hot: true },
       { name: 'Prisma', hot: true },
       { name: 'Flask', hot: true },
     ],
@@ -117,17 +117,17 @@ export const skillGroups = [
   {
     label: 'AI / ML',
     skills: [
-      { name: 'PyTorch + TensorFlow', hot: true },
+      { name: 'PyTorch, TensorFlow', hot: true },
       { name: 'LLM Pipelines', hot: true },
       { name: 'Sentence-Transformers', hot: true },
-      { name: 'NumPy + Pandas', hot: true },
+      { name: 'NumPy, Pandas', hot: true },
       { name: 'Deep Learning', hot: true },
     ],
   },
   {
     label: 'DEVOPS / TOOLS',
     skills: [
-      { name: 'Git + Docker', hot: true },
+      { name: 'Git, Docker', hot: true },
       { name: 'Postman', hot: true },
       { name: 'Google Colab', hot: true },
     ],
