@@ -9,7 +9,6 @@ const contactLinks = [
   { icon: 'in', label: 'LINKEDIN', text: 'linkedin.com/in/inarat-hussain', href: meta.linkedin },
   { icon: '⌥', label: 'GITHUB', text: 'github.com/inarat-hussain', href: meta.github },
   { icon: '⊞', label: 'LEETCODE', text: 'leetcode.com/inarat', href: meta.leetcode },
-  { icon: '⊕', label: 'RESEARCH PAPER', text: 'DKCAE — Springer Nature 2025', href: meta.paper },
 ];
 
 export default function Contact() {
