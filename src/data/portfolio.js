@@ -14,7 +14,7 @@ export const meta = {
 export const roles = ['SDE', 'Full Stack', 'AI Engineer', 'MERN Stack', 'ML / Deep Learning'];
 
 export const stats = [
-  { num: '8.42', label: 'CGPA' },
+  { num: '8.42', label: 'CPI' },
   { num: '1', label: 'PUBLICATION' },
   { num: '3', label: 'INTERNSHIPS' },
 ];

@@ -5,9 +5,9 @@ import SectionHeader from './SectionHeader';
 import styles from './Contact.module.css';
 
 const contactLinks = [
-  { icon: '✉', label: 'EMAIL — fastest response', text: meta.email, href: `mailto:${meta.email}` },
+  { icon: '✉', label: 'EMAIL', text: meta.email, href: `mailto:${meta.email}` },
   { icon: 'in', label: 'LINKEDIN', text: 'linkedin.com/in/inarat-hussain', href: meta.linkedin },
-  { icon: '⌥', label: 'GITHUB — code & projects', text: 'github.com/inarat-hussain', href: meta.github },
+  { icon: '⌥', label: 'GITHUB', text: 'github.com/inarat-hussain', href: meta.github },
   { icon: '⊞', label: 'LEETCODE', text: 'leetcode.com/inarat', href: meta.leetcode },
   { icon: '⊕', label: 'RESEARCH PAPER', text: 'DKCAE — Springer Nature 2025', href: meta.paper },
 ];
