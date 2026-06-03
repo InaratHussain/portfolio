@@ -80,7 +80,7 @@ export const projects = [
     metrics: ['97% intent preserved', '82.3% recall', '1,200+ samples'],
     metricType: 'ai',
     stack: ['GLiNER', 'Llama 3', 'DeepSeek-R1', 'Groq API', 'sentence-transformers'],
-    github: 'https://www.kaggle.com/code/inarathussain/bechmarking-and-testing',
+    github: 'https://github.com/InaratHussain/Privacing-Preserving-Contextually-Aware-AI-Chatbot-Framework',
   },
   {
     id: 'autism',
