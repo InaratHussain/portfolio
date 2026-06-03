@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className={styles.roles}>
           {roles.map(r => (
-            <span key={r} className={`${styles.badge} ${['SDE','Full Stack','AI Engineer'].includes(r) ? styles.active : ''}`}>
+            <span key={r} className={`${styles.badge} ${['SDE','AI Engineer'].includes(r) ? styles.active : ''}`}>
               {r}
             </span>
           ))}
@@ -30,8 +30,6 @@ export default function Hero() {
 
         <div className={styles.ctas}>
           <a href={`mailto:${meta.email}`} className={styles.btnPrimary}>Let's connect</a>
-          <a href={meta.github} target="_blank" rel="noreferrer" className={styles.btnGhost}>⌥ github</a>
-          <a href={meta.paper} target="_blank" rel="noreferrer" className={styles.btnGhost}>⊕ research paper</a>
           <a href={meta.resume} className={styles.btnGhost}>↓ resume</a>
         </div>
 
