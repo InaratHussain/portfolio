@@ -11,7 +11,7 @@ export const meta = {
   graduation: 'May 2026',
 };
 
-export const roles = ['SDE', 'Full Stack', 'AI Engineer'];
+export const roles = ['SDE','AI Engineer'];
 
 export const stats = [
   { num: '8.42', label: 'CPI' },
