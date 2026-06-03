@@ -16,7 +16,7 @@ export const roles = ['SDE', 'Full Stack', 'AI Engineer', 'MERN Stack', 'ML / De
 export const stats = [
   { num: '8.42', label: 'CGPA' },
   { num: '1', label: 'PUBLICATION' },
-  { num: '2', label: 'INTERNSHIPS' },
+  { num: '3', label: 'INTERNSHIPS' },
 ];
 
 export const experience = [
