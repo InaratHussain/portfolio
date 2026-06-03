@@ -6,7 +6,7 @@ import styles from './Contact.module.css';
 
 const contactLinks = [
   {
-    label: 'EMAIL — fastest response',
+    label: 'EMAIL',
     text: meta.email,
     href: `mailto:${meta.email}`,
     icon: (
@@ -84,8 +84,6 @@ export default function Contact() {
             <div className={styles.line}><span className={styles.out}>→ Full-time SDE / AI Engineer roles</span></div>
             <div className={styles.line}><span className={styles.out}>→ Internship extensions</span></div>
             <div className={styles.line}>&nbsp;</div>
-            <div className={styles.line}><span className={styles.prompt}>$ </span><span className={styles.cmd}>cat response_time.txt</span></div>
-            <div className={styles.line}><span className={styles.val}>usually within 24 hours</span></div>
           </Terminal>
         </div>
 
