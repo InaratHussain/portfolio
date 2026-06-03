@@ -5,7 +5,7 @@ export const meta = {
   linkedin: 'https://www.linkedin.com/in/inarat-hussain-612194270/',
   leetcode: 'https://leetcode.com/u/Inu_Minu/',
   paper: 'https://link.springer.com/chapter/10.1007/978-3-032-13714-2_12',
-  resume: 'https://drive.google.com/file/d/1RGHRMF9KsCvKtItAnJW4UUruosMflAvP/view?usp=sharing',
+  resume: 'https://drive.google.com/drive/folders/1IlhQhRGFS0IVbZcNXHfClhmwyBHyUgSs?usp=sharing',
   gpa: '8.42',
   college: 'IIIT Vadodara',
   graduation: 'May 2026',

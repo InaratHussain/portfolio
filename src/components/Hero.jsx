@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
 
         <p className={styles.tagline}>
-          I build <span className={styles.hlBlue}>full-stack systems</span> that ship and{' '}
+          I build <span className={styles.hlBlue}>scalable systems</span> that ship and{' '}
           <span className={styles.hlPurple}>AI pipelines</span> that work in production.
           Let's connect if you are building something fun!
         </p>
