@@ -1,0 +1,91 @@
+.section { max-width: 1100px; margin: 0 auto; padding: 5rem 2rem; }
+
+.fadeUp { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+.visible { opacity: 1; transform: translateY(0); }
+
+.card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+  transition: border-color 0.2s;
+}
+.card:hover { border-color: var(--border2); }
+.card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--green);
+  border-radius: 3px 0 0 3px;
+}
+.card.ai::before { background: var(--purple); }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.title {
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.date {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  font-family: var(--mono);
+}
+.org {
+  font-size: 12px;
+  color: var(--green);
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+  font-family: var(--mono);
+}
+.card.ai .org { color: var(--purple); }
+
+.bullets { list-style: none; padding: 0; }
+.bullets li {
+  font-size: 12.5px;
+  color: var(--muted);
+  line-height: 1.7;
+  padding: 3px 0 3px 16px;
+  position: relative;
+  font-family: var(--mono);
+}
+.bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-size: 10px;
+  top: 5px;
+}
+.card.ai .bullets li::before { color: var(--purple); }
+.bullets li strong { color: var(--text); font-weight: 500; }
+
+.pubBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 5px 12px;
+  background: rgba(167, 139, 250, 0.08);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 3px;
+  font-size: 11px;
+  color: var(--purple);
+  letter-spacing: 0.04em;
+  transition: background 0.2s;
+  font-family: var(--mono);
+}
+.pubBadge:hover { background: rgba(167, 139, 250, 0.15); }

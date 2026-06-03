@@ -1,0 +1,10 @@
+.footer {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 2rem;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  font-family: var(--mono);
+}
+.name { color: var(--green); }

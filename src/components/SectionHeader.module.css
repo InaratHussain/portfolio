@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 3rem;
+}
+.num {
+  font-size: 11px;
+  color: var(--green);
+  letter-spacing: 0.1em;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.title {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+.line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
