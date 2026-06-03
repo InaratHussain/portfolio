@@ -33,10 +33,10 @@ export default function About() {
           <div className={styles.line}><span className={styles.out}>→ Real-time data platforms</span></div>
           <div className={styles.line}><span className={styles.out}>→ Privacy-preserving AI systems</span></div>
           <div className={styles.line}><span className={styles.out}>→ LLM pipelines &amp; agents</span></div>
-          <div className={styles.line}><span className={styles.out}>→ Full-stack MERN apps</span></div>
+          <div className={styles.line}><span className={styles.out}>→ Full-stack apps</span></div>
           <div className={styles.line}>&nbsp;</div>
           <div className={styles.line}><span className={styles.prompt}>$ </span><span className={styles.cmd}>echo $STATUS</span></div>
-          <div className={styles.line}><span className={styles.val}>actively seeking full-time roles (2026)</span></div>
+          <div className={styles.line}><span className={styles.val}>actively seeking full-time roles</span></div>
         </Terminal>
       </div>
     </section>

@@ -29,7 +29,7 @@ const contactLinks = [
     ),
   },
   {
-    label: 'GITHUB — code & projects',
+    label: 'GITHUB',
     text: 'github.com/inarat-hussain',
     href: meta.github,
     icon: (

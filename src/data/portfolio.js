@@ -100,7 +100,7 @@ export const skillGroups = [
     label: 'LANGUAGES',
     skills: [
       { name: 'Python', hot: true },
-      { name: 'JavaScript / TypeScript', hot: true },
+      { name: 'JavaScript, TypeScript', hot: true },
       { name: 'C / C++', hot: true },
     ],
   },
@@ -127,7 +127,8 @@ export const skillGroups = [
   {
     label: 'DEVOPS / TOOLS',
     skills: [
-      { name: 'Git, Docker', hot: true },
+      { name: 'Git, Github', hot: true },
+      { name: 'Docker', hot: true},
       { name: 'Postman', hot: true },
       { name: 'Google Colab', hot: true },
     ],
