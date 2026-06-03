@@ -110,8 +110,8 @@ export const skillGroups = [
       { name: 'React.js', hot: true },
       { name: 'Node.js + Express', hot: true },
       { name: 'MongoDB + PostgreSQL', hot: true },
-      { name: 'Prisma', hot: false },
-      { name: 'Flask', hot: false },
+      { name: 'Prisma', hot: true },
+      { name: 'Flask', hot: true },
     ],
   },
   {
@@ -120,16 +120,16 @@ export const skillGroups = [
       { name: 'PyTorch + TensorFlow', hot: true },
       { name: 'LLM Pipelines', hot: true },
       { name: 'Sentence-Transformers', hot: true },
-      { name: 'NumPy + Pandas', hot: false },
-      { name: 'Deep Learning', hot: false },
+      { name: 'NumPy + Pandas', hot: true },
+      { name: 'Deep Learning', hot: true },
     ],
   },
   {
     label: 'DEVOPS / TOOLS',
     skills: [
       { name: 'Git + Docker', hot: true },
-      { name: 'Postman', hot: false },
-      { name: 'Google Colab', hot: false },
+      { name: 'Postman', hot: true },
+      { name: 'Google Colab', hot: true },
     ],
   },
   {
@@ -137,9 +137,9 @@ export const skillGroups = [
     skills: [
       { name: 'DSA + OOPs', hot: true },
       { name: 'AI/ML + Deep Learning', hot: true },
-      { name: 'DBMS', hot: false },
-      { name: 'Quantum ML', hot: false },
-      { name: 'Cryptography', hot: false },
+      { name: 'DBMS', hot: true },
+      { name: 'Quantum ML', hot: true },
+      { name: 'Cryptography', hot: true },
     ],
   },
   {

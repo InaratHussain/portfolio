@@ -29,7 +29,7 @@ export default function Navbar() {
           </button>
         ))}
       </div>
-      <a href={`mailto:${meta.email}`} className={styles.cta}>hire me</a>
+      <a href={`mailto:${meta.email}`} className={styles.cta}>Let's connect</a>
     </nav>
   );
 }
