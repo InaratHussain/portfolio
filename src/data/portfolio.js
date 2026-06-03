@@ -152,7 +152,7 @@ export const certifications = [
     issuer: 'NPTEL',
     issuerType: 'nptel',
     year: '2024',
-    credentialLink: 'https://nptel.ac.in/your-certificate-url',
+    credentialLink: 'https://drive.google.com/file/d/1nZQFBuKGkAMvyCWA1RuFUO2b2cAHuAvQ/view?usp=sharing',
     skills: ['LLM Architecture', 'Transformers', 'Prompt Engineering'],
   },
   {
@@ -161,7 +161,7 @@ export const certifications = [
     issuer: 'NVIDIA',
     issuerType: 'nvidia',
     year: '2024',
-    credentialLink: 'https://learn.nvidia.com/your-certificate-url',
+    credentialLink: 'https://learn.nvidia.com/certificates?id=OYC3KMcYQUa4c2bvlV5HiA',
     skills: ['Neural Networks', 'CNNs', 'GPU Computing', 'PyTorch'],
   },
 ];
