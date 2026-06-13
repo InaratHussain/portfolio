@@ -152,7 +152,7 @@ export const certifications = [
     title: 'Introduction to Large Language Models (LLMs)',
     issuer: 'NPTEL',
     issuerType: 'nptel',
-    year: '2024',
+    year: '2025',
     credentialLink: 'https://drive.google.com/file/d/1nZQFBuKGkAMvyCWA1RuFUO2b2cAHuAvQ/view?usp=sharing',
     skills: ['LLM Architecture', 'Transformers', 'Prompt Engineering'],
   },
