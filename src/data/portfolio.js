@@ -2,7 +2,7 @@ export const meta = {
   name: 'Inarat Hussain',
   email: 'inarathussain.work@gmail.com',
   github: 'https://github.com/InaratHussain',
-  linkedin: 'https://www.linkedin.com/in/inarat-hussain-612194270/',
+  linkedin: 'https://www.linkedin.com/in/inarat-hussain/',
   leetcode: 'https://leetcode.com/u/InaratHussain/',
   paper: 'https://link.springer.com/chapter/10.1007/978-3-032-13714-2_12',
   resume: 'https://drive.google.com/drive/folders/1IlhQhRGFS0IVbZcNXHfClhmwyBHyUgSs?usp=sharing',
